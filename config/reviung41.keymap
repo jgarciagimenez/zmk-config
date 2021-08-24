@@ -11,6 +11,32 @@
 
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp ESC>;
+        };     
+        combo_lpar {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp LPAR>;
+        };  
+        combo_rpar {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&kp RPAR>;
+        };  
+        combo_minus {
+            timeout-ms = <50>;
+            key-positions = <14 15 16>;
+            bindings = <&kp MINUS>;
+        };  
+    };
+};
+
+/ {
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -22,9 +48,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
-};
 
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
@@ -84,31 +108,4 @@
                         >;
                 };
         };
-};
-
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&kp ESC>;
-        };     
-        combo_lpar {
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp LPAR>;
-        };  
-        combo_rpar {
-            timeout-ms = <50>;
-            key-positions = <19 20>;
-            bindings = <&kp RPAR>;
-        };  
-        combo_minus {
-            timeout-ms = <50>;
-            key-positions = <14 15 16>;
-            bindings = <&kp MINUS>;
-        };  
-    };
 };
