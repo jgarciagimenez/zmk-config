@@ -9,26 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&kp ESC>;
-        };     
-        combo_lpar {
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp LPAR>;
-        };  
-        combo_rpar {
-            timeout-ms = <50>;
-            key-positions = <19 20>;
-            bindings = <&kp RPAR>;
-        };  
-    };
-};
 
 / {
     behaviors {
@@ -42,18 +22,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-                &hm LCTRL A &hm LGUI S &hm LALT D &hm LSHIFT F
-            >;
-        };
-    };
 };
-
 
 / {
         keymap {
@@ -115,4 +84,31 @@
                         >;
                 };
         };
+};
+
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp ESC>;
+        };     
+        combo_lpar {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp LPAR>;
+        };  
+        combo_rpar {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&kp RPAR>;
+        };  
+        combo_minus {
+            timeout-ms = <50>;
+            key-positions = <14 15 16>;
+            bindings = <&kp MINUS>;
+        };  
+    };
 };
