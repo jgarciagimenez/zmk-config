@@ -15,6 +15,7 @@
 #define SYM_L 4
 #define FUN_L 5
 
+&lt { quick_tap_ms = <200>; };
 
 / {
     combos {
@@ -34,11 +35,26 @@
             key-positions = <16 17>;
             bindings = <&kp EQUAL>;
         }; 
+        combo_plus {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&kp PLUS>;
+        }; 
         combo_rpar {
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp RPAR>;
         };  
+        combo_bs_left {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp LS(BSPC)>;
+        }; 
+        combo_bs {
+            timeout-ms = <50>;
+            key-positions = <9 10>;
+            bindings = <&kp BSPC>;
+        }; 
         combo_minus {
             timeout-ms = <50>;
             key-positions = <14 15 16>;
@@ -84,7 +100,7 @@
    &trans &trans  &trans &trans &trans &trans     &trans  &trans &trans &trans  &kp PSCRN  &kp DEL
    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp UP  &kp RIGHT &trans
    &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &trans 
-                                 &trans  &trans   &kp TAB   &lt OTH_L RET  &kp DEL 
+                           &trans  &trans   &kp TAB   &lt OTH_L RET  &kp DEL 
                         >;
                 };
 // -----------------------------------------------S-----------------------------------
