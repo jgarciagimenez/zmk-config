@@ -149,7 +149,7 @@
    &trans &trans  &trans &trans &trans &trans        &kp LBKT         &kp N7    &kp N8    &kp N9    &kp RBKT     &kp BSPC
    &trans &trans  &trans &trans &trans &trans        &kp EQUAL        &kp N4    &kp N5    &kp N6    &kp COLON    &none
    &trans &trans  &trans &trans &trans &trans        &kp BACKSLASH    &kp N1    &kp N2    &kp N3    &kp GRAVE    &none
-                           &trans      &trans       &kp MINUS        &kp N0      &kp DOT
+                           &trans      &trans       &kp MINUS         &kp N0      &kp DOT
                         >;
                 };
 
@@ -162,7 +162,7 @@
                         bindings = <
    &trans &kc LBRC       &kp LS(N7)    &kp LS(N8)    &kp LS(N9) &kc RBRC          &trans &trans  &trans &trans &trans &trans 
    &trans &kp COLON      &kp LS(N4)    &kp LS(N5)    &kp LS(N6) &kp EQUAL         &trans &trans  &trans &trans &trans &trans
-   &trans &kc LS(GRAVE)  &kp LS(N1)    &kp LS(N2)    &kp LS(N3) &kp PIPE          &trans &trans  &trans &trans &trans &trans
+   &trans &kc GRAVE  &kp LS(N1)    &kp LS(N2)    &kp LS(N3) &kp PIPE          &trans &trans  &trans &trans &trans &trans
                                 &kp DOT      &kp LS(N0)      &kp UNDER          &trans &trans
                         >;
                 };
