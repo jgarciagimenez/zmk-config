@@ -160,10 +160,10 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
-//    &trans &kp LBRC       &kp LS(N7)    &kp LS(N8)    &kp LS(N9) &kp RBRC          &trans &trans  &trans &trans &trans &trans 
-//    &trans &kp COLON      &kp LS(N4)    &kp LS(N5)    &kp LS(N6) &kp EQUAL         &trans &trans  &trans &trans &trans &trans
-//    &trans &kp GRAVE      &kp LS(N1)    &kp LS(N2)    &kp LS(N3) &kp PIPE          &trans &trans  &trans &trans &trans &trans
-//                                 &kp DOT      &kp LS(N0)      &kp UNDER           &trans &trans
+    &trans &kp LBRC       &kp LS(N7)    &kp LS(N8)    &kp LS(N9) &kp RBRC          &trans &trans  &trans &trans &trans &trans 
+    &trans &kp COLON      &kp LS(N4)    &kp LS(N5)    &kp LS(N6) &kp EQUAL         &trans &trans  &trans &trans &trans &trans
+    &trans &kp GRAVE      &kp LS(N1)    &kp LS(N2)    &kp LS(N3) &kp PIPE          &trans &trans  &trans &trans &trans &trans
+                                 &kp DOT      &kp LS(N0)      &kp UNDER           &trans &trans
 
                         >;
                 };
