@@ -33,7 +33,7 @@
 
         combo_bspc {
             timeout-ms = <50>;
-            key-positions = <14 15>;
+            key-positions = <3 4>;
             bindings = <&kp BSPC>;
         };  
 
@@ -64,12 +64,12 @@
         }; 
         combo_minus {
             timeout-ms = <50>;
-            key-positions = <14 15 16>;
-            bindings = <&kp MINUS>;
+            key-positions = <14 15>;
+            bindings = <&mt LS(MINUS) MINUS>;
         };  
         combo_underscore {
             timeout-ms = <50>;
-            key-positions = <19 20 21>;
+            key-positions = <20 21>;
             bindings = <&kp UNDER>;
         };  
         combo_pipe {
@@ -80,7 +80,7 @@
         combo_bslash {
             timeout-ms = <50>;
             key-positions = <30 31>;
-            bindings = <&kp FSLH>;
+            bindings = <&kp BSLH>;
         };  
     };
 };
@@ -111,8 +111,8 @@
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &hm LGUI A &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G &kp H &hm LCTRL J  &hm LSHIFT K  &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
-                        &kp LALT  &lt NAV_L SPACE &mt LSHFT TAB &lt NUM_L RET  &kp BSPC
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &mt LS(COMMA) COMMA &mt LS(DOT) DOT &mt QUESTION FSLH &mt RSHFT RET
+                        &mt LALT K_COPY  &lt NAV_L SPACE &mt LSHFT TAB &lt NUM_L RET  &kp BSPC
                         >;
                 };
 
