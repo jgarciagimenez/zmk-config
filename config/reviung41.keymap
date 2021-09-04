@@ -37,12 +37,12 @@
             layers = <0>;
             bindings = <&kp RPAR>;
         };  
-        // combo_rbrac {
-        //     timeout-ms = <50>;
-        //     key-positions = <19 20>;
-        //     layers = <3>;
-        //     bindings = <&mt RBRC RBKT>;
-        // }; 
+        combo_rbrac {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            layers = <NUM_L>;
+            bindings = <&mt RBRC RBKT>;
+        }; 
         // combo_lbrac {
         //     timeout-ms = <50>;
         //     key-positions = <15 16>;
