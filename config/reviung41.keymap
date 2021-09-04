@@ -206,7 +206,7 @@
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
    &kp GRAVE &mt F1 N1  &mt F2 N2 &mt F3 N3 &mt F4 N4 &mt F5 N5        &mt F6 N6         &mt F7 N7    &mt F8 N8    &mt F9 N9    &mt F10 N0     &kp DEL
-   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &kp LS(N8)    &kp LS(N9)    &kp LS(N0)    &none
+   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &kp LS(N8)    &mt F11 LS(N9)    &mt F12 LS(N0)    &none
    &trans &trans  &trans  &kp LBRC &kp LBKT  &trans       &trans &kp RBKT &kp RBRC   &trans &trans &trans
                            &trans      &trans        &trans &trans  &trans 
                         >;
