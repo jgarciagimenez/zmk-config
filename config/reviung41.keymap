@@ -43,12 +43,12 @@
             layers = <NUM_L>;
             bindings = <&mt RBRC RBKT>;
         }; 
-        // combo_lbrac {
-        //     timeout-ms = <50>;
-        //     key-positions = <15 16>;
-        //     layers = <3>;
-        //     bindings = <&mt LBRC LBKT>;
-        // }; 
+        combo_lbrac {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            layers = <NUM_L>;
+            bindings = <&mt LBRC LBKT>;
+        }; 
         combo_bspcup {
             timeout-ms = <30>;
             key-positions = <4 5>;
