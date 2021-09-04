@@ -130,13 +130,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        et: grave_escape {
-            compatible = "zmk,behavior-mod-morph";
-            label = "escape-tab";
-            #binding-cells = <0>;
-            bindings = <&kp BSPC>, <&kp TAB>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
+        // et: grave_escape {
+        //     compatible = "zmk,behavior-mod-morph";
+        //     label = "escape-tab";
+        //     #binding-cells = <0>;
+        //     bindings = <&kp BSPC>, <&kp TAB>;
+        //     mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        // };
     };
 
 
