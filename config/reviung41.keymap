@@ -49,13 +49,13 @@
             layers = <3>;
             bindings = <&mt LBRC LBKT>;
         }; 
-        combo_bspc {
+        combo_bspc1 {
             timeout-ms = <30>;
             key-positions = <4 5>;
             bindings = <&kp BSPC>;
         };  
 
-        combo_bspc {
+        combo_bspc2 {
             timeout-ms = <30>;
             key-positions = <14 16>;
             bindings = <&kp BSPC>;
