@@ -135,7 +135,7 @@
             label = "escape-tab";
             #binding-cells = <0>;
             bindings = <&mt LSHFT BSPC>, <&kp TAB>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_LCTRL|MOD_LALT)>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_LCTL|MOD_LALT)>;
         };
     };
 
