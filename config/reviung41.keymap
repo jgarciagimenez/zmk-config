@@ -130,9 +130,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    };
-
-    behaviors {
         et: grave_escape {
             compatible = "zmk,behavior-mod-morph";
             label = "escape-tab";
@@ -141,6 +138,8 @@
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         };
     };
+
+
 
     keymap {
         compatible = "zmk,keymap";
