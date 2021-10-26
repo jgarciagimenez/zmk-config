@@ -85,7 +85,7 @@
             timeout-ms = <50>;
             key-positions = <7 8>;
             layers = <NAV_L>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp LC(BSPC)>;
         }; 
         combo_bs {
             timeout-ms = <30>;
