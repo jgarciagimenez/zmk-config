@@ -79,6 +79,7 @@
         combo_bs_base {
             timeout-ms = <50>;
             key-positions = <7 8>;
+            layers = <0>;
             bindings = <&kp BSPC>;
         };
         combo_bs_left {
@@ -166,7 +167,7 @@
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &hm LGUI A &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G &kp H &hm LCTRL J  &hm LSHIFT K  &kp L   &kp SQT &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &mt LS(COMMA) COMMA &mt LS(DOT) DOT &mt QUESTION FSLH &mt RSHFT RET
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &mt LS(DOT) DOT &mt QUESTION FSLH &mt RSHFT RET
                         &mt LALT LC(V)  &lt NAV_L SPACE &et &lt NUM_L RET  &kp BSPC
                         >;
                 };
@@ -175,7 +176,7 @@
 
                          bindings = <
    &trans &trans  &trans &trans &trans &trans     &trans  &trans &kp UP &trans  &kp PSCRN  &kp DEL
-   &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END &trans
+   &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &mt LS(SEMI) SEMI  &trans
    &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &trans 
                            &trans  &trans   &kp TAB   &lt OTH_L RET  &kp DEL 
                         >;
@@ -218,7 +219,7 @@
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
    &kp GRAVE &mt F1 N1  &mt F2 N2 &mt F3 N3 &mt F4 N4 &mt F5 N5        &mt F6 N6         &mt F7 N7    &mt F8 N8    &mt F9 N9    &mt F10 N0     &kp DEL
-   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &kp LS(N8)    &mt F11 LS(N9)    &mt F12 SEMI    &none
+   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &mt F11 LS(N8)    &mt F12 LS(N9)   &mt LS(SEMI) SEMI   &none
    &trans &trans  &trans  &kp LBRC &kp LBKT  &trans       &trans &kp RBKT &kp RBRC   &trans &trans &trans
                            &trans      &trans        &trans &trans  &trans 
                         >;
