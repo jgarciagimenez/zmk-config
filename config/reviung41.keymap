@@ -173,15 +173,15 @@
                         >;
                 };
 
-//                 nav_layer {
+                nav_layer {
 
-//                          bindings = <
-//    &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
-//    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp end &none
-//    &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &none
-//                            &trans  &trans   &kp ESC   &lt OTH_L RET  &none
-//                         >;
-//                 };
+                         bindings = <
+   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
+   &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp end &none
+   &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &none
+                           &trans  &trans   &kp ESC   &lt OTH_L RET  &none
+                        >;
+                };
 
 
 //                 other_layer {
