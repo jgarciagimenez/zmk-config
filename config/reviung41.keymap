@@ -195,19 +195,19 @@
                 };
 
 
-//                 num_layer {
-// // -----------------------------------------------------------------------------------------
-// // |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
-// // |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
-// // |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
-// //                       |     | ADJ | BKSP |    |     |
-//                         bindings = <
-//    &none &kp LBKT   &mt F7 N7  &mt F8 N8 &mt F9 N9  &kp RBKT              &trans    &trans   &trans    &trans   &trans   &none
-//    &none &kp SEMI   &mt F4 N4  &mt F5 N5 &mt F6 N6  &kp EQUAL             &trans    &trans   &trans    &trans   &trans   &none
-//    &none &kp GRAVE  &mt F1 N1  &mt F2 N2 &mt F3 N3  &kp BSLH              &trans    &trans   &trans    &trans   &trans   &none
-//                              &none       &kp N0     &kp MINUS  &trans      &none 
-//                         >;
-//                 };
+                num_layer {
+// -----------------------------------------------------------------------------------------
+// |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
+// |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
+// |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
+//                       |     | ADJ | BKSP |    |     |
+                        bindings = <
+   &none &kp LBKT   &mt F7 N7  &mt F8 N8 &mt F9 N9  &kp RBKT              &trans    &trans   &trans    &trans   &trans   &none
+   &none &kp SEMI   &mt F4 N4  &mt F5 N5 &mt F6 N6  &kp EQUAL             &trans    &trans   &trans    &trans   &trans   &none
+   &none &kp GRAVE  &mt F1 N1  &mt F2 N2 &mt F3 N3  &kp BSLH              &trans    &trans   &trans    &trans   &trans   &none
+                             &none       &kp N0     &kp MINUS  &trans      &none 
+                        >;
+                };
 
 //                 sym_layer {
 
