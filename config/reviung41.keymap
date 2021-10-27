@@ -24,7 +24,7 @@
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp ESC>;
-        };     
+        };    
         combo_lpar {
             timeout-ms = <50>;
             key-positions = <15 16>;
@@ -63,7 +63,7 @@
         combo_bspchome {
             timeout-ms = <30>;
             key-positions = <14 16>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp ESC>;
         };  
 
         combo_eql {
@@ -219,7 +219,7 @@
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
    &kp GRAVE &mt F1 N1  &mt F2 N2 &mt F3 N3 &mt F4 N4 &mt F5 N5        &mt F6 N6         &mt F7 N7    &mt F8 N8    &mt F9 N9    &mt F10 N0     &kp DEL
-   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &mt F11 LS(N8)    &mt F12 LS(N9)   &mt SEMI LS(SEMI)  &none
+   &kp TILDE &kp LS(N1)  &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)        &kp LS(N6)         &kp LS(N7)    &mt F11 LS(N8)    &mt F12 LS(N9)   &mt F10 N0  &none
    &trans &kp GRAVE &kp TILDE  &kp LBRC &kp LBKT  &trans       &trans &kp RBKT &kp RBRC   &trans &trans &trans
                            &trans      &trans        &trans &trans  &trans 
                         >;
