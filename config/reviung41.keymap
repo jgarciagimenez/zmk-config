@@ -209,19 +209,19 @@
                         >;
                 };
 
-                sym_layer {
-// -----------------------------------------------------------------------------------------
-// |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
-// |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
-// |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
-//                       |     | ADJ | BKSP |    |     |
-                        bindings = <
-   &none  &kp LBRC   &kp LS(N7)  &kp LS(N8) &kp  LS(N9)  &kp RBRC                 &trans    &trans   &trans    &trans   &trans   &none
-   &none  &kp COLON  &kp LS(N4)  &kp LS(N5) &kp  LS(N6)  &kp PLUS                 &trans    &trans   &trans    &trans   &trans   &none
-   &none  &kp TILDE  &kp LS(N1)  &kp LS(N2) &kp  LS(N3)  &kp LS(BSLH)             &trans    &trans   &trans    &trans   &trans   &none
-                                   &none       &kp UNDER    &None  &trans      &none 
-                        >;
-                };
+//                 sym_layer {
+// // -----------------------------------------------------------------------------------------
+// // |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
+// // |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
+// // |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
+// //                       |     | ADJ | BKSP |    |     |
+//                         bindings = <
+//    &none  &kp LBRC   &kp LS(N7)  &kp LS(N8) &kp  LS(N9)  &kp RBRC                 &trans    &trans   &trans    &trans   &trans   &none
+//    &none  &kp COLON  &kp LS(N4)  &kp LS(N5) &kp  LS(N6)  &kp PLUS                 &trans    &trans   &trans    &trans   &trans   &none
+//    &none  &kp TILDE  &kp LS(N1)  &kp LS(N2) &kp  LS(N3)  &kp LS(BSLH)             &trans    &trans   &trans    &trans   &trans   &none
+//                                    &none       &kp UNDER    &None  &trans      &none 
+//                         >;
+//                 };
 
 //                 sym_layer {
 
