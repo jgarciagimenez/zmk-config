@@ -147,7 +147,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "escape-tab";
             #binding-cells = <0>;
-            bindings = <&tog SYM_L BSPC>, <&kp TAB>;
+            bindings = <&mt SYM_L BSPC>, <&kp TAB>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_LCTL|MOD_LALT)>;
         };
     };
