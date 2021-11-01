@@ -176,7 +176,7 @@
                 nav_layer {
 
                          bindings = <
-   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &kp BSPC
+   &trans &trans  &trans &trans &trans &trans     &kp BSPC  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &kp BSPC
    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END &none
    &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &none
                            &trans  &trans   &kp ESC   &lt OTH_L RET  &none
