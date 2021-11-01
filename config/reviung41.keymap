@@ -147,7 +147,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "escape-tab";
             #binding-cells = <0>;
-            bindings = <&lt SYM_L BSPC>, <&kp TAB>;
+            bindings = <&tog SYM_L BSPC>, <&kp TAB>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_LCTL|MOD_LALT)>;
         };
     };
@@ -176,7 +176,7 @@
                 nav_layer {
 
                          bindings = <
-   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
+   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &kp BSPC
    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END &none
    &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &none
                            &trans  &trans   &kp ESC   &lt OTH_L RET  &none
@@ -219,7 +219,7 @@
    &none  &kp LBRC   &kp LS(N7)  &kp LS(N8) &kp  LS(N9)  &kp RBRC                 &trans    &trans   &trans    &trans   &trans   &none
    &none  &kp COLON  &kp LS(N4)  &kp LS(N5) &kp  LS(N6)  &kp PLUS                 &trans    &trans   &trans    &trans   &trans   &none
    &none  &kp TILDE  &kp LS(N1)  &kp LS(N2) &kp  LS(N3)  &kp LS(BSLH)             &trans    &trans   &trans    &trans   &trans   &none
-                                   &none       &kp UNDER    &none  &trans      &none 
+                                   &none       &tog 0    &none  &trans      &none 
                         >;
                 };
 
