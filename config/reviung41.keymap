@@ -178,7 +178,7 @@
                          bindings = <
    &trans &trans  &trans &trans &trans &trans     &kp ESC  &kp BSPC &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END &none
-   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &trans &none
+   &trans &trans  &trans &trans &trans &trans     &trans &kp LC(X) &kp LC(C)  &mt LS(LC(V)) LC(V) &none
                            &trans  &trans   &kp ESC   &lt OTH_L RET  &none
                         >;
                 };
