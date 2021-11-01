@@ -168,7 +168,7 @@
                         bindings = <
    &none   &kp Q        &kp W        &kp E        &kp R        &kp T           &kp Y  &kp U        &kp I         &kp O   &kp P   &none
    &none   &hm LGUI A   &hm LALT S   &hm LSHIFT D &hm LCTRL F  &kp G           &kp H  &hm LCTRL J  &hm LSHIFT K  &kp L   &kp SQT &none
-   &none   &kp Z        &kp X        &kp C        &kp V        &kp B           &kp N  &kp M        &kp COMMA     &mt LS(DOT) DOT &mt QUESTION FSLH &none
+   &none   &kp Z        &kp X        &kp C        &kp V        &kp B           &kp N  &kp M        &kp COLON COMMA &mt LS(N1) DOT &mt QUESTION FSLH &none
                         &none                &lt NAV_L SPACE           &et        &lt NUM_L RET  &none
                         >;
                 };
@@ -176,9 +176,9 @@
                 nav_layer {
 
                          bindings = <
-   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
+   &trans &trans  &trans &trans &trans &trans     &kp ESC  &kp BSPC &kp UP &mt LS(LC(V)) LC(V)  &kp PSCRN  &none
    &trans &trans  &trans &trans &trans &trans     &kp HOME &kp LEFT  &kp DOWN &kp RIGHT  &kp END &none
-   &trans &trans  &trans &trans &trans &trans     &trans  &kp END  &kp PG_UP &kp PG_DN &trans &none
+   &trans &trans  &trans &trans &trans &trans     &trans  &kp LC(C) &kp UP &mt LS(LC(V)) LC(V)  &trans &none
                            &trans  &trans   &kp ESC   &lt OTH_L RET  &none
                         >;
                 };
@@ -216,7 +216,7 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
-   &none  &kp LBRC   &kp LS(N7)  &kp LS(N8) &kp  LS(N9)  &kp RBRC                 &trans    &trans   &trans    &trans   &trans   &none
+   &none  &kp LS(COMMA)   &kp LS(N7)  &kp LS(N8) &kp  LS(N9)  &kp LS(DOT)                 &trans    &trans   &trans    &trans   &trans   &none
    &none  &kp COLON  &kp LS(N4)  &kp LS(N5) &kp  LS(N6)  &kp PLUS                 &trans    &trans   &trans    &trans   &trans   &none
    &none  &kp TILDE  &kp LS(N1)  &kp LS(N2) &kp  LS(N3)  &kp LS(BSLH)             &trans    &trans   &trans    &trans   &trans   &none
                                    &none       &kp UNDER    &none  &trans      &none 
